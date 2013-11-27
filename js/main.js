@@ -57,6 +57,7 @@ function loadQuestion2()
                   '<button id="q2" style="float:right;" type="button" class="btn btn-primary">Answer</button>');
 
 	$("#q2").click(q2listener);
+	console.log("")
 }
 
 function loadQuestion3()
