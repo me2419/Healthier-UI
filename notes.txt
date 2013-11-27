@@ -1,0 +1,26 @@
+eliminate everything from webpage, just leave thing with unique value. 
+Small button to article information on a separate page
+
+keep answers small! few best treatments 
+Tie treatments to people who can do it
+
+Mathematically it is difficult to quantify 
+
+YY High speed and robust event corelation 
+David Ashi thesis on this ML stuff
+eliminates large degree of redundancy
+
+Taking a binary vector with answers based on the diagnosis questions. look for discriminate subset of questions for all diseases.
+
+This approach allows for random ordering of questions, rather then a specific order, which solves a psychology problem
+
+hand compute the codebook
+
+DEMO THE VALUE AND ELIMINATE THE TECHNOLOGY RISK
+
+add a progress bar, you have UP TO x number of questions more. 
+
+look at how much we have covered with our version from all the possible diseases
+look at how much population we are covering. 
+
+talk to practitioners for validation of correctness. Yankai's wife!
