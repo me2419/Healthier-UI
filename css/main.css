@@ -4,7 +4,10 @@
    Author's custom styles
    ========================================================================== */
 
-
+.jumbotron {
+        background: url('back.jpg');
+        color: #FFFFFF;
+}
 
 
 
