@@ -119,12 +119,12 @@
             <h4>Diagnosis Tool</h4>
             <div class="panel panel-default">
               <div class="panel-heading">
-                <h3 class="panel-title">Do you experience dizziniess often?</h3>
+                <h3 class="panel-title" id="panel-title">Do you experience dizziniess often?</h3>
               </div>
-              <div class="panel-body">
+              <div class="panel-body" id="zeBody">
                   <form action="">
-                  <input type="radio" name="ans" value="yes">&nbsp;Yes<br>
-                  <input type="radio" name="ans" value="no">&nbsp;No
+                  <input id="q1yes" type="radio" name="ans" value="yes">&nbsp;Yes<br>
+                  <input id="q1no" type="radio" name="ans" value="no">&nbsp;No
                   </form>
                   <button id="q1" style="float:right;" type="button" class="btn btn-primary">Answer</button>
               </div>
@@ -137,5 +137,6 @@
           </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
       </div>
+      <script src="js/main.js"></script>
       </body>
   </html>
