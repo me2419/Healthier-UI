@@ -2328,6 +2328,15 @@ fieldset[disabled] .btn-link:focus {
   border-radius: 6px;
 }
 
+.btn-xlarge {
+    padding: 18px 28px;
+    font-size: 48px;
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+}
+
 .btn-sm,
 .btn-xs {
   padding: 5px 10px;
