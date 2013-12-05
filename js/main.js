@@ -1,10 +1,6 @@
 $("#q1").click(function()
 {
 
-
-    
-
-
 	if($("#q1yes").is(":checked"))
 	{
 		loadQuestion2();
@@ -149,23 +145,6 @@ function giveRecommendation(Disseasetype)
 		var content4='Shenshu (BL23), Dachangshu (BL25), Mingmen(GV4), Yaoyan(EX-B7), Zhishi(BL52)';
 		var title5='Food';
 		var content5='Chinese chives';
-
-		// $("#zeBody").html('<div class="hero-unit">'+
-  //   				'<h1>Heading</h1>'+
-  //   				'<p>Tagline</p>'+
-  //   				'<p>'+
-  //   					'<a class="btn btn-primary btn-large">Learn more</a>'+
-  //   				'</p>'+
-  //   			'</div>'+
-  //   	   '</div>'+
-
-  //   			'<div class="hero-unit">'+
-  //   				'<h1>Heading</h1>'+
-  //   				'<p>Tagline</p>'+
-  //   				'<p>'+
-  //   					'<a class="btn btn-primary btn-large">Learn more</a>'+
-  //   				'</p>'+
-  //   			'</div>');
 	}
 	else {
 		alert("healthy");
@@ -210,36 +189,36 @@ function ML_test(jarcommand)
 try{     
 
 //    var strPath="F:/Yuankai/JAVA_workingfolder/Healthier-UI/jar/healthier.jar 1 1 1 1 1 0 0 0 0 0";
-   alert(jarcommand); 
+   // alert(jarcommand); 
    var objShell=new ActiveXObject("WScript.Shell");
  
-	var idx=objShell.run(jarcommand,4,true);  
-	alert(idx);
+	var idx=objShell.run(jarcommand,0,true);  
+	// alert(idx);
 
-	if(idx==1)
-		{
-			alert("KIDNEY_YANG_DEFICIENCY");
+	if(idx==1){
+			// alert("KIDNEY_YANG_DEFICIENCY");
 			giveRecommendationML("KIDNEY_YING_DEFICIENCY");
 		}else if(idx==2){
-			alert("KIDNEY_YANG_DEFICIENCY");
+			// alert("KIDNEY_YANG_DEFICIENCY");
 			giveRecommendationML("KIDNEY_YANG_DEFICIENCY");
 		}else if(idx==3){
-			alert("KIDNEY_QI_DEFICIENCY");
+			// alert("KIDNEY_QI_DEFICIENCY");
 			giveRecommendationML("KIDNEY_QI_DEFICIENCY");
 		}else{
-			alert("HEALTHY");
+			// alert("HEALTHY");
 			giveRecommendationML("HEALTHY");
 		}
 
 		
 	}catch(e){
-		alert("fail!");  
+		alert("fail! Please use IE explorer");  
 	}   
 
 }
 
 function giveRecommendationML(Disseasetype)
 {
+	// alert(Disseasetype);
 	$("#myMLModalLabel").html("Diagnosis Result");
 	if(Disseasetype=="KIDNEY_QI_DEFICIENCY") {
 		var desease='You have <strong>KIDNEY QI DEFICIENCY</strong>';
@@ -282,10 +261,18 @@ function giveRecommendationML(Disseasetype)
 
 	}
 	else {
-		alert("healthy");
+		
 		}
 
-
+	if(Disseasetype=="HEALTHY")
+	{
+		$("#myMLModalBody").html('<div class="thumbnail">'+
+		      '<img src="img/congratulations.jpg" style="width: 300px; height: 200px;">'+
+		      '<div class="caption">'+
+		       	'<h3>Congratulations! You are healthy!</h3>'+
+		      '</div>'+
+		    '</div>');
+	}else{
 	$("#myMLModalBody").html('<div class="alert alert-danger">'+desease+'</div>'+
 		'<div class="panel panel-success"><div class="panel-heading"><h3 class="panel-title">'+title1+'</h3></div>'+
 		'<div class="panel-body">'+content1+'</div></div>'+
@@ -297,4 +284,5 @@ function giveRecommendationML(Disseasetype)
 		'<div class="panel-body">'+content4+'</div></div>'+
 		'<div class="panel panel-success"><div class="panel-heading"><h3 class="panel-title">'+title5+'</h3></div>'+
 		'<div class="panel-body">'+content5+'</div></div>');
+	}
 }
