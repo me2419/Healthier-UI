@@ -61,9 +61,12 @@
         <h1>Healthier</h1>
         <p>Feel the power of TCM</p>
         <br>
-        <p><a class="btn btn-warning btn-xlarge" data-toggle="modal" data-target="#myModal">Diagnose Now &raquo;</a></p>
+        <p><a class="btn btn-warning btn-xlarge" data-toggle="modal" data-target="#myModal">Quick Diagnose Now &raquo;</a></p>
+        <p><a class="btn btn-success btn-lg" data-toggle="modal" data-target="#MLModal">Machine Learning Diagnose &raquo;</a></p>
       </div>
     </div>
+
+
 
     <div class="container">
       <!-- Example row of columns -->
@@ -98,7 +101,7 @@
 
         <script src="js/vendor/bootstrap.min.js"></script>
 
-        <script src="js/main.js"></script>
+        <!-- <script src="js/main.js"></script> -->
 
         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
@@ -140,7 +143,72 @@
 
           </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
+
+
+<!--       <div class="modal fade" id="MLModal" tabindex="-1" role="dialog" aria-labelledby="MLModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+              <h4 class="modal-title" id="myModalLabel">Self Diagnosis Portal</h4>
+            </div>
+            <div class="modal-body" id="myModalBody">
+            </div>
+<!--           <select class="selectpicker">
+          <option>Yes</option>
+          <option>No</option>
+          </select> -->
+        
       </div>
       <script src="js/main.js"></script>
+      </div>
+
+
+      <div class="modal fade" id="MLModal" tabindex="-1" role="dialog" aria-labelledby="MLModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title" id="myMLModalLabel">Machine Learning Diagnosis</h4>
+            </div>
+            <div class="modal-body" id="myMLModalBody">
+              <p>Please finish the following questions&hellip;</p>
+                <div>question1: white color tongue?         --><select name="selValue" class="selectpicker" id="ms1">
+                  <option value="1">Yes</option><option value="0">No</option></select></div>
+                <div>question2: face color bright white?    --><select class="selectpicker" id="ms2">
+                  <option value="1">Yes</option><option value="0">No</option></select></div>
+                <div>question3: pulse weak?                 --><select class="selectpicker" id="ms3">
+                  <option value="1">Yes</option><option value="0">No</option></select></div>
+                <div>question4: feel dizziness and tinnitus?--><select class="selectpicker" id="ms4">
+                  <option value="1">Yes</option><option value="0">No</option></select></div>
+                <div>question5: insomnia & amnesia?         --><select class="selectpicker" id="ms5">
+                  <option value="1">Yes</option><option value="0">No</option></select></div>
+                <div>question6: emanciation?                --><select class="selectpicker" id="ms6">
+                  <option value="1">Yes</option><option value="0">No</option></select></div>
+                <div>question7: dispiritedness & lassitude? --><select class="selectpicker" id="ms7">
+                  <option value="1">Yes</option><option value="0">No</option></select></div>
+                <div>question8: early morning diarrhea?     --><select class="selectpicker" id="ms8">
+                  <option value="1">Yes</option><option value="0">No</option></select></div>
+                <div>question9: fever & night sweating?     --><select class="selectpicker" id="ms9">
+                  <option value="1">Yes</option><option value="0">No</option></select></div>
+                <div>question10:dry mouth & throat?         --><select class="selectpicker"id="ms10">
+                  <option value="1">Yes</option><option value="0">No</option></select></div>
+            </div>
+
+            <script> $('.selectpicker').selectpicker();</script>
+            
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button id="mq1" style="float:right;" type="button" class="btn btn-primary">Answer</button>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
+
+      </div>
+      <script src="js/main.js"></script>
+      </div>
+
+
       </body>
   </html>
