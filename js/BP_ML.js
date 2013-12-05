@@ -27,7 +27,7 @@ try{
    var objShell=new ActiveXObject("WScript.Shell");
  
 	var idx=objShell.run(jarcommand,0,true);  
-	alert(idx);
+	// alert(idx);
 
 	if(idx==1){
 			// alert("KIDNEY_YANG_DEFICIENCY");
