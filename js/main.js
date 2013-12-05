@@ -111,7 +111,7 @@ function giveRecommendation(Disseasetype)
 		var desease='You have <strong>KIDNEY QI DEFICIENCY</strong>';
 		var title1='Treatment';
 		var content1='Invigorates the kidney';
-		var title2='Prescription';
+		var title2='Recommendate Medicine';
 		var content2='Wuzi yanzong pills';
 		var title3='Herbs';
 		var content3='The fruit of Chinese wolfberry, The seed of Chinese dodder, Raspberry, The fruit of Chinese magnoliavine, Semen plantaginis';
@@ -124,7 +124,7 @@ function giveRecommendation(Disseasetype)
 		var desease='You have <strong>KIDNEY YING DEFICIENCY</strong>';
 		var title1='Treatment';
 		var content1='Nourishing kidney yin';
-		var title2='Prescription';
+		var title2='Recommendate Medicine';
 		var content2='Liuwei dihuang pill';
 		var title3='Herbs';
 		var content3='Radix Rehmanniae Recens, Chinese yam, Arillus Corni, Oriental Waterplantain Rhizome, Poria cocos, the root bark of the peony tree, rhizoma anemarrhenae, tortoise plastron';
@@ -137,7 +137,7 @@ function giveRecommendation(Disseasetype)
 		var desease='You have <strong>KIDNEY YANG DEFICIENCY</strong>';
 		var title1='Treatment';
 		var content1='Warming and recuperating kidney yang';
-		var title2='Prescription';
+		var title2='Recommendate Medicine';
 		var content2='Chinkuei shin chewan pills';
 		var title3='Herbs';
 		var content3='Monkshood, Cinnamon, Arillus Corni, Chinese yam, Prepared rehmannia root, Poria cocos, Root bark of the peony tree, Herba Epimedii, Curculigo orchioides Gaertn';
@@ -224,7 +224,7 @@ function giveRecommendationML(Disseasetype)
 		var desease='You have <strong>KIDNEY QI DEFICIENCY</strong>';
 		var title1='Treatment';
 		var content1='Invigorates the kidney';
-		var title2='Prescription';
+		var title2='Recommendate Medicine';
 		var content2='Wuzi yanzong pills';
 		var title3='Herbs';
 		var content3='The fruit of Chinese wolfberry, The seed of Chinese dodder, Raspberry, The fruit of Chinese magnoliavine, Semen plantaginis';
@@ -237,7 +237,7 @@ function giveRecommendationML(Disseasetype)
 		var desease='You have <strong>KIDNEY YING DEFICIENCY</strong>';
 		var title1='Treatment';
 		var content1='Nourishing kidney yin';
-		var title2='Prescription';
+		var title2='Recommendate Medicine';
 		var content2='Liuwei dihuang pill';
 		var title3='Herbs';
 		var content3='Radix Rehmanniae Recens, Chinese yam, Arillus Corni, Oriental Waterplantain Rhizome, Poria cocos, the root bark of the peony tree, rhizoma anemarrhenae, tortoise plastron';
@@ -250,7 +250,7 @@ function giveRecommendationML(Disseasetype)
 		var desease='You have <strong>KIDNEY YANG DEFICIENCY</strong>';
 		var title1='Treatment';
 		var content1='Warming and recuperating kidney yang';
-		var title2='Prescription';
+		var title2='Recommendate Medicine';
 		var content2='Chinkuei shin chewan pills';
 		var title3='Herbs';
 		var content3='Monkshood, Cinnamon, Arillus Corni, Chinese yam, Prepared rehmannia root, Poria cocos, Root bark of the peony tree, Herba Epimedii, Curculigo orchioides Gaertn';
